@@ -7,54 +7,54 @@ const noBtn = document.querySelector(".no-btn");
 const btnGrp = document.querySelector(".btn-group");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "I'm SORRY";
+  question.innerHTML = "I'm SORRY BABYYYY forgive me pleaseeeeee!!!";
   gif.src = "images/sorry.png";
   gif.style.height = "300px"; 
 gif.style.width = "400px"; 
   noBtn.innerHTML = "No";
-  yesBtn.innerHTML = "Accha thik hai";
+  yesBtn.innerHTML = "Acha theek hai";
 
   yesBtn.addEventListener("click", () => {
-    question.innerHTML = "Hehehe!! I knew It";
+    question.innerHTML = "Thankkkkyyouuuuu soo muchh myy lovveeeee!!!!";
     gif.src = "images/love.gif";
     yesBtn.style.display = "none";
     noBtn.style.display = "none";
   })
 
   noBtn.addEventListener("click", () => {
-    question.innerHTML = "Soch lo acche se!";
+    question.innerHTML = "Pleaseeeeeeeee maaf kardo babyyyy";
     gif.src = "images/download.gif";
     yesBtn.innerHTML = "Accha thik hai";
-    noBtn.innerHTML = "Nahi Sochna";
+    noBtn.innerHTML = "Nai karungi";
 
     yesBtn.addEventListener("click", () => {
-      question.innerHTML = "Hehehe, I knew it!";
+      question.innerHTML = "Thankkkkyyouuuuu soo muchh myy lovveeeee!!!!";
       gif.src = "images/love.gif";
       yesBtn.style.display = "none";
       noBtn.style.display = "none";
     })
 
     noBtn.addEventListener("click", () => {
-      question.innerHTML = "Ak baar ar soch lo";
+      question.innerHTML = "Apne gulaam ko maaf kardo na baby pleaseeeeee";
       gif.src = "images/sadlife.gif";
       yesBtn.innerHTML = "Chalo maan gai";
       noBtn.innerHTML = "Final no";
 
       yesBtn.addEventListener("click", () => {
-        question.innerHTML = "Hehehe, I knew it!";
+        question.innerHTML = "Thankkkkyyouuuuu soo muchh myy lovveeeee!!!!";
         gif.src = "images/love.gif";
         yesBtn.style.display = "none";
         noBtn.style.display = "none";
       });
 
       noBtn.addEventListener("click", () => {
-        question.innerHTML = "Manja nah! kitna bhav khayegi";
+        question.innerHTML = "Pleaseeeee meri jaaaaaannnnnnn pleaseee aaf kardo aur reply dedo meri princesss!!!!";
         gif.src = "images/run.gif";
         yesBtn.innerHTML = "No";
         noBtn.innerHTML = "Yes";
 
         noBtn.addEventListener("click", () => {
-          question.innerHTML = "Hehehe, I knew it!";
+          question.innerHTML = "Thankkkkyyouuuuu soo muchh myy lovveeeee!!!!";
           gif.src = "images/love.gif";
           yesBtn.style.display = "none";
           noBtn.style.display = "none";
